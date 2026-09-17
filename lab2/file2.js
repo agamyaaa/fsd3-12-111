@@ -57,4 +57,5 @@ const deleteFile = async (filename) => {
 };
 const content = await readData("fun1.js");
 console.log(content);
-15;
+
+//13
