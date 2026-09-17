@@ -1,8 +1,19 @@
-// we use in memeory database
+// we use in memory database
 let users = [
-    {id:1,name:'amit sharma',mob '9084234557',email:'agamyayadav9@gamil.com'},
-    {id:1,name:'amit sharma',mob' 9084234557',email:'agamyayadav9@gamil.com'},
-]
-let mextID = 3;
-export const getUser = () => users;
-]
+  {
+    id: 1,
+    name: "Amit Sharma",
+    mob: "98345xxxxx",
+    email: "amit.example@exam.com",
+  },
+  {
+    id: 2,
+    name: "Monika Verma",
+    mob: "92345xxxxx",
+    email: "moni.example@exam.com",
+  },
+];
+
+let nextId = 3;
+
+export const getUsers = () => users;
