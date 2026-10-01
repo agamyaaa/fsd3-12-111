@@ -23,4 +23,11 @@ in type : common => means program through oops and module means porgram through 
 -majorly backed server return only data not html file
 - REST API uses ( get , post , put , patch , delete) methon to communicate with client 
 - any browser can check only get method
-- for other methond type we use third party API tester like postman , thunder client , echo api etc
+## request type
+1. GET - get all , get by id
+ - GET: "/api/products" - get all products
+ - GET: "/api/products/101" - get by id
+2. POST - " / api/products"
+    - data will be shared from ecoAPI body section
+3. PUT/PATCH - "/api/products/201"
+4. DELETE - "/api/products/101"
